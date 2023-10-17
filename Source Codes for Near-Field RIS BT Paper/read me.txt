@@ -1,0 +1,27 @@
+This simulation code package is mainly used to reproduce the results of the following paper [1]:
+
+[1] X. Wei, L., Y. Zhao, G. Yu, and X. Duan, "Codebook design and beam training for
+extremely large-scale RIS: Far-field or near-field?," China Commun. , 2022.
+
+*********************************************************************************************************************************
+If you use this simulation code package in any way, please cite the original paper [1] above. 
+ 
+The author in charge of this simulation code pacakge is: Xiuhong Wei (email: weixh19@mails.tsinghua.edu.cn).
+
+Reference: We highly respect reproducible research, so we try to provide the simulation codes for our published papers (more information can be found at: 
+http://oa.ee.tsinghua.edu.cn/dailinglong/publications/publications.html). 
+
+Please note that the MATLAB R2020a is used for this simulation code package,  and there may be some imcompatibility problems among different MATLAB versions. 
+
+Copyright reserved by the Broadband Communications and Signal Processing Laboratory (led by Dr. Linglong Dai), Beijing National Research Center for Information Science and Technology (BNRist), Department of Electronic Engineering, Tsinghua University, Beijing 100084, China. 
+*********************************************************************************************************************************
+Abstract of the paper: 
+
+Reconfigurable intelligent surface (RIS) is more likely to develop into extremely large-scale RIS (XL-RIS) to efficiently boost the system capacity for future 6G communications. Beam training is an effective way to acquire channel state information (CSI) for XL-RIS. Existing beam training schemes rely on the far-field codebook. However, due to the large aperture of XL-RIS, the scatters are more likely to be in the near-field region of XL-RIS. The far-field codebook mismatches the near-field channel model. Thus, the existing far-field beam training scheme will cause severe performance loss in the XL-RIS assisted near-field communications. To solve this problem, we propose the efficient near-field beam training schemes by designing the near-field codebook to match the near-field channel model. Specifically, we firstly design the near-field codebook by considering the near-field cascaded array steering vector of XL-RIS. Then, the optimal codeword for XL-RIS is obtained by the exhausted training procedure. To reduce the beam training overhead, we further design a hierarchical near-field codebook and propose the corresponding hierarchical near-field beam training scheme, where different levels of sub-codebooks are searched in turn with reduced codebook size. Simulation results show the proposed near-field beam training schemes outperform the existing far-field beam training scheme.
+*********************************************************************************************************************************
+How to use this simulation code package?
+
+The simulation results (Fig. 4 and Fig.5 in the paper) can be obtained by running Main_rate.m and Main_overhead.m in the folder. 
+
+*********************************************************************************************************************************
+Enjoy the reproducible research!
